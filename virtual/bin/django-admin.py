@@ -1,4 +1,4 @@
-#!/home/moringa/Django/My-Hood/virtual/bin/python
+#!/home/moringa/Django/Matuzo-awardz/virtual/bin/python
 from django.core import management
 
 if __name__ == "__main__":
