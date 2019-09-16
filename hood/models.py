@@ -49,7 +49,7 @@ class Profile(models.Model):
 
 class Post(models.Model):
     title = models.CharField(max_length=60,blank=True)
-    image = models.ImageField(upload_to='postpics/',default='NO IMAGE')
+    image = models.ImageField(upload_to='hoodpics/',default='NO IMAGE')
     description = HTMLField()
     
     # link = models.URLField(blank=True)
