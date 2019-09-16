@@ -77,7 +77,6 @@ def update_profile(request):
             update = form.save(commit=False)
             update.user = request.user
             update.save()
-            # return HttpResponseRedirect(reverse('profile', username=request.user))
 
             return redirect('profile', username=request.user)
     else:
