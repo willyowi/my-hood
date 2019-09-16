@@ -1,4 +1,4 @@
-#!/home/moringa/Django/Matuzo-awardz/virtual/bin/python
+#!/home/moringa/Django/InstaInsta/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -1,5 +1,5 @@
 
-{% load bootstrap4 %}
+{% load bootstrap3 %}
 {% load static %}
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <link rel="stylesheet" href="{% static 'css/styles.css' %}">
@@ -24,7 +24,7 @@
          <div>
 
            <input type="text" class="form-control" placeholder="Search Projects by title" name="title" style="height:38px;">
-           <a href="{% url "add_project"%}" style="color: white"></ion-icon>Upload++</a>
+           <a href="{% url "add_post"%}" style="color: white"></ion-icon>Upload++</a>
 
          </div>
          <!-- <div class="input-group-btn">
@@ -34,9 +34,6 @@
      </form>
     <section class="icons-section" >
 
-
-      <!-- <a href="{% url "add_project"%}"><ion-icon name="add" class="ionic"></ion-icon></a> -->
-      <!-- <a class="nav-link open-nav" href="{% url 'profile' username=user %}"> -->
 
 
 
@@ -57,7 +54,7 @@
 
 
 
-<!-- {% load bootstrap4 %}
+<!-- {% load bootstrap3 %}
 {% load static%}
 <nav class="navbar navbar-expand-lg navbar-light fixed-top opaque-navbar" id="navMain">
     <div class="container navmarg">
