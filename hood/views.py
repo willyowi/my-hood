@@ -38,9 +38,9 @@ def index(request):
 
     profiles = Profile.objects.all()
     posts = Post.objects.all()
-    reviews = Review.objects.all()
+    # reviews = Review.objects.all()
 
-    context ={"profiles":profiles,"posts":posts,"reviews":reviews,"message":message}
+    context ={"profiles":profiles,"posts":posts,"message":message}
 
     return render(request,'index.html',context)
 
