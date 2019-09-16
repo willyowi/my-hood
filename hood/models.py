@@ -49,7 +49,7 @@ class Profile(models.Model):
 
 class Post(models.Model):
     title = models.CharField(max_length=60,blank=True)
-    image = models.ImageField(upload_to='projectpics/',default='NO IMAGE')
+    image = models.ImageField(upload_to='postpics/',default='NO IMAGE')
     description = HTMLField()
     
     # link = models.URLField(blank=True)
@@ -78,9 +78,9 @@ class Post(models.Model):
         self.delete()
 
     @classmethod
-    def postt_by_id(cls,id):
-        project = Post.objects.filter(id =id)
-        return project
+    def post_by_id(cls,id):
+        post = Post.objects.filter(id =id)
+        return post
 
     @classmethod
     def get_posts(cls):
