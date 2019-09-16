@@ -1,5 +1,7 @@
 from django import forms
-from .models import Profile 
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.models import User
+from .models import * 
 # Business, NeighbourHood, Post, Comment
 
 class ProfileForm(forms.ModelForm):
@@ -17,10 +19,10 @@ class ProfileForm(forms.ModelForm):
 #         model = NeighbourHood
 #         fields = ('name', 'location', 'occupants')
 
-# class PostForm(forms.ModelForm):
-#     class Meta:
-#         model = Post
-#         exclude = ['user', 'neighbourhood']
+class PostForm(forms.ModelForm):
+    class Meta:
+        model = Post
+        exclude = ['user', 'neighbourhood']
 
 # class CommentForm(forms.ModelForm):
 #     class Meta:
