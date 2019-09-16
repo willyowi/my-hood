@@ -9,6 +9,8 @@ urlpatterns = [
     url(r'^signup/$', views.signup, name='signup'),
     url(r'^upload/$',views.new_post,name='add_post'),
     url(r'^search$', views.search, name='search'),
+    url(r'^business$', views.business, name='business'),
+
 
     # url(r'^review/(?P<project_id>\d+)', views.review_project, name='review'),
     # url(r'^searched/', views.search_projects, name='search'),

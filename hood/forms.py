@@ -9,10 +9,10 @@ class ProfileForm(forms.ModelForm):
         model = Profile
         exclude = ['user']
 
-# class BusinessForm(forms.ModelForm):
-#     class Meta:
-#         model = Business
-#         exclude = ['user', 'neighbourhood']
+class BusinessForm(forms.ModelForm):
+    class Meta:
+        model = Business
+        exclude = ['user', 'neighbourhood']
 
 # class NeighbourHoodForm(forms.ModelForm):
 #     class Meta:
