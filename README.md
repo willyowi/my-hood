@@ -14,8 +14,8 @@ An app that show around the neighbourhood,the point where people meet to communi
 | --------- | ------------------------- | ------------------------- |
 | Register first | Input details to be validated | view the page upon registration |
 | Update profile | in put profile pic to profile |  submit and view |
-| post a project | post a pic and add description | 
-| Rate and Review | Rate and review a projct out of ten |  scores are tabulated |
+| post an ad or anything | post a pic and add description | 
+
 | Log Out |   | Proceedings Terminated |
 
 
