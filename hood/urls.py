@@ -10,6 +10,8 @@ urlpatterns = [
     url(r'^upload/$',views.new_post,name='add_post'),
     url(r'^search$', views.search, name='search'),
     url(r'^business$', views.business, name='business'),
+    url(r'^health$', views.business, name='business'),
+    url(r'^security$', views.business, name='business'),
 
 
     # url(r'^searched/', views.search_projects, name='search'),
