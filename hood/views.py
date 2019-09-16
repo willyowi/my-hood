@@ -125,11 +125,11 @@ def search(request):
     return render(request, 'search.html', context)
 @login_required(login_url='/accounts/login')
 def business(request):
-	current_user = request.user
-    businesses = Business.objects.filter(neighbourhood = profile.neighbourhood)
+    # profile = user.objects.get(user = request.user)
+    businesses = Business.objects.filter(user = profile.user)
     context = {
         'businesses': businesses
-     }    
+    }    
     return render(request, 'business.html', context)
 @login_required(login_url='/accounts/login')
 def new_business(request):
