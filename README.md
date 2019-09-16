@@ -5,7 +5,7 @@
 By **wilson owino** :100:
 
 ## DESCRIPTION
-An App that mimics the infamous awwwards for project posting, reviews and ratings.|You can see other peoples project and rate them as well as posting yours
+An app th
 
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT(BDD)
@@ -24,14 +24,12 @@ An App that mimics the infamous awwwards for project posting, reviews and rating
 ## sign up :book:
 ![screenshot](/static/photos/registration.png)
 ## Landing Page 
-### Various Projects That have been posted seen here:
+### Various Posts That have been posted seen here:
 ![screenshot](/static/photos/land.png)
-## Rate 
-### Rate a projrct that you clicked on
-![screenshot](/static/photos/rate.png)
+
 
 ## Upload 
-### Upload your project for  other users
+### Upload your post or an ad for  other users
 ![screenshot](/static/photos/upload.png)
 
 
