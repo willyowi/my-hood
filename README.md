@@ -5,7 +5,7 @@
 By **wilson owino** :100:
 
 ## DESCRIPTION
-An app th
+An app that show around the neighbourhood,the point where people meet to communicate on various issues like business and health or any other function tht may be around
 
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT(BDD)
