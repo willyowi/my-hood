@@ -22,7 +22,7 @@ An app that show around the neighbourhood,the point where people meet to communi
 # DISPLAY
 
 ## sign up :book:
-![screenshot](/static/photos/registration.png)
+![screenshot](/static/photos/sign.png)
 ## Landing Page 
 ### Various Posts That have been posted seen here:
 ![screenshot](/static/photos/land.png)
@@ -114,4 +114,4 @@ None
 * Scss
 
 ## LICENSE
-[MIT](https://github.com/Willyowi/matuzo awards/blob/master/LICENSE)
+[MIT](https://github.com/Willyowi/my-hood/blob/master/LICENSE)
